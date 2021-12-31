@@ -5,7 +5,9 @@
 Submitted by: **Rebecca Li**
 
 Time spent: **10** hours spent in total
-Time spent on Revisement #1: **9** hours spent in total
+
+
+Time spent on **Revisement #1**: **9** hours spent in total
 
 ## User Stories
 
