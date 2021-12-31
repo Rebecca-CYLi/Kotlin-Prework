@@ -4,10 +4,13 @@
 
 Submitted by: **Rebecca Li**
 
-Time spent: **10** hours spent in total
+Time spent: **19** hours spent in total
 
 
-Time spent on **Revisement #1**: **9** hours spent in total
+Time spent on **optional** features: **9** hours spent in total
+
+
+Time spent on **required** functionality: **10** hours spent in total
 
 ## User Stories
 
