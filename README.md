@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality!
 * [x] 4. User can only enter non-empty strings. (Empty strings OR accidental clicks of the ADD button will not save empty strings!)
 * [x] 5. If the editted string is empty, the list will delete the item upon save and return, it will display a message to screen.
 
