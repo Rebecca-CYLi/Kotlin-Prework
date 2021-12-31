@@ -46,6 +46,8 @@ GIFs created with [Kap](https://getkap.co/).
 
 Describe any challenges encountered while building the app.
 
+Learning everything, the terminologies are tricky coming from iOS
+
 ## License
 
     Copyright [2021] [Rebecca Li]
