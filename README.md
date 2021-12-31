@@ -5,6 +5,7 @@
 Submitted by: **Rebecca Li**
 
 Time spent: **10** hours spent in total
+Time spent on Revisement #1: **9** hours spent in total
 
 ## User Stories
 
@@ -16,21 +17,25 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list
+* [x] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list
 
 The following **additional** features are implemented:
 
 * [ ] List anything else that you can get done to improve the app functionality!
 * [x] 4. User can only enter non-empty strings. (Empty strings OR accidental clicks of the ADD button will not save empty strings!)
-
+* [x] 5. If the editted string is empty, the list will delete the item upon save and return, it will display a message to screen.
 
 ## Video Walkthrough
 
+Here's a walkthrough of implemented **optional** user stories:
+
+<img src='preworkOptional.gif' title='Video Walkthrough' width='350' alt='Video Walkthrough' />
+
 Here's a walkthrough of implemented user stories:
 
-<img src='kotlinPrework.gif' title='Video Walkthrough' width='150' alt='Video Walkthrough' />
+<img src='kotlinPrework.gif' title='Video Walkthrough' width='350' alt='Video Walkthrough' />
 
-GIF created with [Kap](https://getkap.co/).
+GIFs created with [Kap](https://getkap.co/).
 
 ## Notes
 

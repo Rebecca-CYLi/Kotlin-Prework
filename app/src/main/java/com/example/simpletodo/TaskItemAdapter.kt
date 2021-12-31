@@ -1,18 +1,23 @@
 package com.example.simpletodo
 
 import android.R
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class TaskItemAdapter(val listOfItems: List<String>,
-                      val longClickListener: OnLongClickListener) : RecyclerView.Adapter<TaskItemAdapter.ViewHolder>() {
+class TaskItemAdapter(
+    val listOfItems: List<String>,
+    val longClickListener: OnLongClickListener,
+    val clickListener: OnClickListener) : RecyclerView.Adapter<TaskItemAdapter.ViewHolder>() {
 
     interface OnLongClickListener {
         fun onItemLongClicked(position: Int)
+    }
+
+    interface OnClickListener{
+        fun onItemClicked(position: Int)
     }
 
     // ... constructor and member variables
@@ -51,7 +56,16 @@ class TaskItemAdapter(val listOfItems: List<String>,
                 longClickListener.onItemLongClicked(adapterPosition)
                 true
             }
+
+            itemView.setOnClickListener {
+                clickListener.onItemClicked(adapterPosition)
+            }
+
         }
 
-    }
+    }//end of viewholder
+
+
 }
+
+
