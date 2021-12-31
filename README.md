@@ -36,7 +36,7 @@ Here's a walkthrough of implemented **optional** user stories:
 
 <img src='preworkOptional.gif' title='Video Walkthrough' width='350' alt='Video Walkthrough' />
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented **required** user stories:
 
 <img src='kotlinPrework.gif' title='Video Walkthrough' width='350' alt='Video Walkthrough' />
 
